@@ -85,6 +85,7 @@ header {
 .header-content .btn {
     background-color: #000000;
     color: #ffffff;
+    box-shadow: 0 4px 8px #a59c9c;
     padding: 0.8rem 1.6rem;
     text-decoration: none;
     border-radius: 30px;
@@ -146,6 +147,7 @@ nav {
 }
 
 .nav-menu li {
+    outline-style: none;
     margin: 0 15px;
 }
 
@@ -160,9 +162,28 @@ nav {
 .nav-menu a:hover {
     color: #ff8c00;
 }
+.download-cv-link {
+    background-color: #ffffff;
+    color:#2F284F;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
 
+.download-cv-link:hover {
+    background-color: #ffffff;
+    transform: translateY(-3px);
+}
 
-
+.download-cv-link li a {
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 1.2rem;
+}
+.download-cv-link li i{
+    text-decoration: none;
+}
 
 
 /* About Section */
@@ -171,7 +192,6 @@ nav {
     padding: 2rem 1rem;
     color: #000000;
     font-size: 18px;
-    animation: typing 2s steps(100) forwards, blink-caret 0.75s step-start infinite;
     line-height: 2.5rem;
 }
 
@@ -488,6 +508,7 @@ form input, form textarea {
 form button {   
     background-color: #000000;
     color: #ffffff;
+    box-shadow: 0 4px 8px #a59c9c;
     font-weight: bold;
     padding: 0.8rem 2rem;
     border-radius: 30px;
@@ -607,6 +628,11 @@ footer {
         text-align: center;
         margin-right: 2rem;
     }
+    .download-cv-link {
+        background-color: #2F284F;
+        padding: 4px 8px;
+        font-size: 2px;
+    }
     .about-item {
         width: 80%; /* Full width on tablets */
         margin-bottom: 20px; /* Adds spacing between the items */
@@ -679,6 +705,10 @@ footer {
         color: #ffffff;
         text-align: center;
         margin-left: -1.5rem;
+    }
+    .download-cv-link {
+        padding: 3px 6px;
+        font-size: 2px;
     }
     .about-item {
         font-size: 16px; /* Slightly smaller font on mobile devices */
