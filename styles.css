@@ -194,6 +194,7 @@ nav {
     background-color: #ffffff;
     padding: 20px;
     border-left: 6px solid #E96950;
+    border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: justify;
     width: 55%; /* Full width on small screens */
@@ -248,6 +249,7 @@ nav {
     background-color: #ffffff;
     padding: 1.5rem;
     border-left: 6px solid #E96950;
+    border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.3s ease-in-out;
@@ -298,6 +300,7 @@ nav {
     background-color: #ffffff;
     padding: 1.5rem;
     border-left: 6px solid #E96950;
+    border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.3s ease-in-out;
@@ -349,6 +352,7 @@ nav {
 
     background-color: #ffffff;
     border-left: 6px solid #E96950;
+    border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.3s ease-in-out;
@@ -406,6 +410,7 @@ nav {
     background-color: #ffffff;
     padding: 1.5rem;
     border-left: 6px solid #E96950 ;
+    border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.3s ease-in-out;
@@ -463,6 +468,7 @@ form {
     padding: 1.5rem;
     border-left: 16px solid  #E96950 ;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
     text-align: center;
     transition: transform 0.3s ease-in-out;
     margin: 0 15rem;
@@ -476,7 +482,7 @@ form label {
 form input, form textarea {
     padding: 0.8rem;
     border: 2px solid  #FACF55;
-    border-radius: 4px;
+    border-radius: 8px;
 }
 
 form button {   
