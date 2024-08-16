@@ -586,6 +586,7 @@ footer {
         flex-direction: column;
         width: 25%;
         background-color: #e55530;
+        border-radius: 8px;
         color: #ffffff;
         text-align: center;
         position: fixed;
@@ -658,6 +659,7 @@ footer {
         flex-direction: column;
         width: 25%;
         background-color: #e55530;
+        border-radius: 8px;
         color: #ffffff;
         text-align: center;
         position: fixed;
