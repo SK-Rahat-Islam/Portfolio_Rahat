@@ -360,7 +360,7 @@ nav {
 .skill-category ul{
     list-style-type: none; 
     padding-left: 0; /* Removes the default padding */
-    margin: 0; 
+    margin-bottom: 1.5rem;
 }
 .skill-category:hover {
     transform: translateY(-5px);
@@ -377,7 +377,7 @@ nav {
 .skill-list {
     list-style-type: none; /* Removes the bullet points */
     padding-left: 0; /* Removes the default padding */
-    margin: 0; /* Removes the default margin */
+    margin-bottom: 0.5rem;
 }
 
 .skill-list li {
