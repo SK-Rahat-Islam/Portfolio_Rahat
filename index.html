@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
 </head>
 <body>
+    
     <!-- Navigation Menu -->
     <nav>
         <div class="menu-toggle" id="menu-toggle">
@@ -192,7 +193,10 @@
         </div>
     </footer>
 
-    <div class="loader"></div>
+    <div id="loader">
+        <!-- You can add your loading animation here -->
+        <div class="spinner"></div>
+      </div>
 
     <!-- JavaScript -->
     <script>
@@ -228,6 +232,30 @@
                 });
             });
         });
+        window.addEventListener('load', function () {
+    // Remove the loader
+            document.getElementById('loader').style.display = 'none';
+            // Remove blur effect from the page
+            document.body.classList.remove('blur');
+            });
+
+            // Add blur effect initially
+            document.addEventListener('DOMContentLoaded', function () {
+            document.body.classList.add('blur');
+            });
     </script>
+       <!-- Tawk.to Live Chat Widget -->
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/66c06fdb146b7af4a43b7955/1i5fr9t9f';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+        </script>
 </body>
 </html>
